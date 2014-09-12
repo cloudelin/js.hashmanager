@@ -17,7 +17,7 @@ hashmanager.registerHandler('viewContent', function(data){
 });
 ```
 
-### Push hash
+### Push hash (window.location.hash)
 
 ```
   var data = {};
