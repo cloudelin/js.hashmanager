@@ -8,3 +8,20 @@ Javascript utility for manage the URL hash and event
 ```
 var hashmanager = $.hashmanager();
 ```
+
+### Register handler
+
+```
+hashmanager.registerHandler('viewContent', function(data){
+  // run something
+});
+```
+
+### Push hash
+
+```
+  var data = {};
+  data.action = 'viewContent';
+  data.contentId = contentId;
+  hashmanager.push(data);
+```
