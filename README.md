@@ -13,7 +13,7 @@ var hashmanager = $.hashmanager();
 
 ```
 hashmanager.registerHandler('viewContent', function(data){
-  // run something
+  // do something
 });
 ```
 
